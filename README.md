@@ -1,2 +1,3 @@
 # cli-quiz
-command line quiz interface, to practice TDD
+command line quiz interface
+Options for muliple categories 
