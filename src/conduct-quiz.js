@@ -1,5 +1,4 @@
-import { input, select } from "@inquirer/prompts";
-import process from "node:process";
+import { select } from "@inquirer/prompts";
 import chalk from "chalk";
 
 const makeChoiceConfig = (options) => {
@@ -7,7 +6,6 @@ const makeChoiceConfig = (options) => {
   for (const option of options) {
     config.push({ name: option, value: option });
   }
-
   return config;
 };
 
